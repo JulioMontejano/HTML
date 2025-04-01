@@ -1,0 +1,30 @@
+.Rojo{
+    font-size: 100px;
+    color: red;
+}
+.verde{
+    font-size: 40px;
+    color: lightgreen;
+    background-color: gray;
+}
+.tituloselector{
+    font-size: 60px;
+    color: darkblue;   
+}
+select{
+   font-size: 30px;
+}
+.enlaces{
+    font-size: 40px;
+    background-color: gray;
+    text-decoration: underline;
+    color: darkblue;
+    
+}
+h3{
+    color: blue;
+    font-size: 30px;
+}
+mark{
+    background-color: yellow;
+}

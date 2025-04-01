@@ -1,0 +1,71 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: 'Arial', sans-serif;
+}
+
+#padre{
+    position: relative;
+    width: 1500px;
+    height: 1500px;
+    background-color: rgb(181, 212, 180);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+#hijo{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#hijofoto{
+    flex: 100px;
+    right: 200px;
+    padding-left: 40px;
+}
+
+img{
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+#hijotexto{
+    left: 210px;
+    position: absolute;
+    top: 1000px;
+    transform: translate(-50%,-50%);
+}
+
+#magdalenas{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#magdalena1{
+    position: absolute;
+    padding-left: 40px;
+}
+
+#magdalena2{
+    position: absolute;
+    right: 0px;
+    padding-right: 40px;
+}
+
+#titulomagdalenas{
+    position: absolute;
+    bottom: 450px;
+    left: 750px;
+    transform: translate(-50%, -50%);
+}
+
+#magdalenacereza{
+    position: absolute;
+    padding-top: 1000px;
+    left: 750px;
+    transform: translate(-50%, -50%);
+}

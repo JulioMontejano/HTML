@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Que biba la comia</title>
+    <link rel="stylesheet" type="text/css" href="/PROYECTOS/Proyecto12/index.css">
+</head>
+<body>
+    <header>
+        <table align="center"style="margin-top: 40px;">
+            <tr style="margin: 40px;">
+                <th><h1>El Mesón de la carne</h1></th>
+            </tr>
+        </table>
+    </header>
+    <hr style="border: none; border-top: 4px double #000000; margin-top: 30px; box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);">
+    <table>
+        <input type="radio" id="tab1" name="tabs" checked>
+        <label style="margin-left: 570px; margin-top: 40px;" for="tab1">Carta</label>
+
+        <input type="radio" id="tab2" name="tabs">
+        <label for="tab2">Conócenos</label> 
+
+        <input type="radio" id="tab3" name="tabs">
+        <label for="tab3">Reserva</label>
+    </table>
+    <section class="wrap-carta" id="content1">
+        <table class="wrap-carta-productos">
+            <tr class="wrap-carta-productos-platos" style="margin-right: 500px;">
+                <td class="wrap-carta-productos-platos-img"><img src="/ImagenesPagWeb/12/Entrecot.jpeg" alt="" width="100" height="100"></td>
+                <td class="wrap-carta-productos-platos-titulos">Entrecot</td>
+                <td class="wrap-carta-productos-platos-precios">24.99€</td>
+                
+                <td class="wrap-carta-productos-platos-img"><img src="/ImagenesPagWeb/12/Alitas.jpg" alt="" width="100"></td>
+                <td class="wrap-carta-productos-platos-titulos">Alitas</td>
+                <td class="wrap-carta-productos-platos-precios">19.99€</td>
+            </tr>
+            <tr class="wrap-productos-platos">
+                <td class="wrap-carta-productos-platos-img"><img src="/ImagenesPagWeb/12/Filete.jpg" alt="" width="100"></td>
+                <td class="wrap-carta-productos-platos-titulos">Filete de Ternera</td>
+                <td class="wrap-carta-productos-platos-precios">19.99€</td>
+
+                <td class="wrap-carta-productos-platos-img"><img src="/ImagenesPagWeb/12/tataki atun.jpg" alt="" width="100"></td>
+                <td class="wrap-carta-productos-platos-titulos">Tataki de Atun</td>
+                <td class="wrap-carta-productos-platos-precios">19.99€</td>
+            </tr>
+            <tr class="wrap-productos-platos">
+                <td class="wrap-carta-productos-platos-img"><img src="/ImagenesPagWeb/12/Tomahawk.jpg" alt="" width="100"></td>
+                <td class="wrap-carta-productos-platos-titulos">Tomahawk</td>
+                <td class="wrap-carta-productos-platos-precios">44.99€</td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="wrap-conocer" id="content2">
+        <table class="wrap-conocer-tabla">
+            <tr class="wrap-conocer-tabla-titulos">
+                <th class="wrap-conocer-tabla-titulos-chef">
+                    Chef Estrella
+                </th>
+                <th class="wrap-conocer-tabla-titulos-menu">
+                    Especialidad del Día
+                </th>
+                <th class="wrap-conocer-tabla-titulos-restaurante">
+                    Restaurante
+                </th>
+            </tr>
+            <tr>
+                <td style="padding-left: 50px; padding-right: 50px;">
+                    <img src="/ImagenesPagWeb/12/Chef.jpg" alt="" width="200">
+                </td>
+                <td style="padding-left: 50px; padding-right: 50px;">
+                    <img src="/ImagenesPagWeb/12/Plato-dia.jpg" alt="" width="200">
+                </td>
+                <td style="padding-left: 50px; padding-right: 50px;">
+                    <img src="/ImagenesPagWeb/12/restaurante2.jpg" alt="" width="200" height="300">
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+        </table>
+    </section> 
+        
+    <section style="padding-left: 100px;" id="content3">
+        <h3>Formulario de Reserva</h3>
+            <form action="#" method="post">
+                <table align="center">
+                    <p><label style="margin: auto;" for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" required></p>
+        
+                    <p><label for="email">Correo electrónico:</label>
+                        <input type="email" id="email" name="email" required></p>
+        
+                    <p><label for="telefono">Teléfono:</label>
+                        <input type="tel" id="telefono" name="telefono"></p>
+        
+                    <p><label for="mensaje">Mensaje:</label>
+                        <textarea id="mensaje" name="mensaje" required></textarea></p>
+        
+                    <p><label for="asunto">Asunto:</label>
+                        <select id="asunto" name="asunto">
+                            <option value="consulta">Consulta</option>
+                            <option value="sugerencia">Sugerencia</option>
+                            <option value="reclamo">Reclamo</option>
+                        </select></p>
+        
+                    <p><input type="submit" value="Enviar"></p>
+                </table>
+            </form>
+    </section>
+    <footer style="margin-bottom: 20px;">
+        <hr style="border: none; border-top: 4px double #000000; margin-top: 30px; box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);">
+        <ul>
+            <li>Telefono - 123-45-67-89</li>
+            <li>Email: emaildecontacto@emc.es</li>
+            <li>Dirección: Calle calicuecalo-21-12</li>
+        </ul>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,150 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: 'Arial', sans-serif;
+}
+
+.padre {
+    width: 600px;
+    height: auto;
+    background-color: #a6d6a6;
+    position: relative;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+.hijo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.imagen {
+    flex: 1;
+    text-align: right;
+}
+
+.imagen img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.texto {
+    flex: 1;
+    margin-left: 10px;
+}
+
+.texto h2 {
+    font-size: 18px;
+    margin: 0 0 10px;
+}
+
+.texto ul, .texto ol {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.texto ul.ingredientes li, .texto ol.instrucciones li {
+    margin-bottom: 5px;
+}
+
+.texto h3 {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.imagenes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.imagenes img {
+    width: 25%;
+    height: auto;
+    border-radius: 10px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: 'Arial', sans-serif;
+}
+
+.padre {
+    width: 600px;
+    height: auto;
+    background-color: #a6d6a6;
+    position: relative;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+.hijo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.imagen {
+    flex: 1;
+    text-align: right;
+}
+
+.imagen img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.texto {
+    flex: 1;
+    margin-left: 10px;
+}
+
+.texto h2 {
+    font-size: 18px;
+    margin: 0 0 10px;
+}
+
+.texto ul, .texto ol {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.texto ul.ingredientes li, .texto ol.instrucciones li {
+    margin-bottom: 5px;
+}
+
+.texto h3 {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.imagenes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.imagenes img {
+    width: 25%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.parrafo {
+    text-align: center;
+    font-family: 'Georgia', 'Times New Roman', serif;
+}

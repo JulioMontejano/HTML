@@ -1,0 +1,14 @@
+.a { background-color: cyan; }
+/*a). Se usa la palabra reservada para el color rojo en html.*/
+.b { background-color: #00ffff; }
+/*b). Se usa el código hexadecimal para dar el color.*/
+.c { background-color: RGB(0,255,255); }
+/*c). Se usa la mezcla de colores RGB (Red, Green, blue) en la cual los valoras van del 0 - 255*/
+.d { background-color: HSL(180,100%,50%); }
+/*d). Se usa una mezcla de colores en HSL (Hue, Saturation, lightness) Son valores de cualquier tipo de color y se usan en porcentaje*/
+.e { background-color: cyan; opacity: 0.5; }
+/*e). Se usa la opacidad como parámetro del color rojo que se eligió de fondo.*/
+.f { background-color: rgba(0, 255, 255, 0.5); }
+/*f). En este se usa una variante del anterior RGB pero usando un canal “Alpha” que sirve para crear transparencias.*/
+.g { background-color: transparent; }
+/*g). Y por último se usa el atributo transparent, para quitar el color rojo elegido.*/

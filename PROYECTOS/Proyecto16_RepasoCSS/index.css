@@ -1,0 +1,57 @@
+html{
+    background-color: beige;
+}
+/*Comienzo estilos de la tabla general*/
+.tabla1{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+td{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+h1{
+    padding-left: 100px;
+    padding-top: 10px;
+    padding-right: 15px;
+}
+/*Final de estilos*/
+/*Comienzo Estilos de textos informativos*/
+.defgirona{
+    text-indent: 10px;
+}
+
+.defmenorca{
+    text-indent: 10px;
+}
+
+.defmallorca{
+    text-indent: 10px;
+}
+.defpalma{
+    text-indent: 10px;
+}
+/*Final Estilos de textos informativos*/
+/*Comienzo*/
+.imgGirona{
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.imgMallorca{
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.imgMenorca{
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.imgPalma{
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}

@@ -1,0 +1,38 @@
+/*INICIO - Tabla header*/
+header{
+    margin-left: 40px; /*Añadimos margen a la derecha*/
+    margin-right: 40px; /*Añadimos margen a la izquierda*/
+}
+/*FIN - Tabla header*/
+
+/*INICIO - Tabla de las ciudades con las definiciones y los videos*/
+body{
+    background-color: #fcfef1; /*Cambiamos el color al fondo*/
+}
+
+.cuerpo{
+    margin-left: 40px; /*Añadimos margen a la derecha*/
+    margin-right: 40px; /*Añadimos margen a la izquierda*/
+}
+
+.cont-Finlandia{
+   padding-right: 100px;
+}
+
+.img-Finlandia{
+
+}
+
+.texto-Finlandia{
+
+}
+
+
+/*FIN - Tabla de las ciudades con las definiciones y los videos*/
+
+/*INICIO - Tabla Footer*/
+hr{
+    margin-bottom: 50px; /*Añadimos margen hacia abajo*/
+}
+
+/*FIN - Tabla Footer*/

@@ -1,0 +1,21 @@
+body{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+td{
+    text-indent: 10px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.titulo{
+    
+}

@@ -1,0 +1,30 @@
+html{
+    background-color: #fefcf9;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 50px;
+}
+
+body{
+
+}
+
+.wrap_padre{
+    position: relative;
+}
+
+.wrap_icono{
+ position: absolute;
+}
+
+.wrap_brand{
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    padding-top: 35px;
+}
+
+#icono{
+    width: 200px;
+    height: 200px;
+}

@@ -1,0 +1,99 @@
+html{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+background-color: #050A30;
+}
+/* Header */
+.tab_prueba{
+padding-left: 200px;
+}
+
+.tab_servicios{
+padding-right: 10px;
+padding-left: 10px;
+}
+
+.tab_sobre_nosotros{
+padding-left: 10px;
+}
+
+.logo{
+margin-right: 1300px;
+margin-left: 20px;
+margin-top: 10px;
+}
+/* Header */
+
+/* Body */
+.tabla2{
+    border-collapse: separate;
+    border-spacing: 2rem 3rem 10rem;
+    caption-side: top;
+}
+.video{
+padding-top: 50px;
+padding-left: 150px;
+padding-right: 40px;
+}
+
+.texto{
+padding: 50px;
+}
+.resaltar{
+font-weight: bolder;
+font-size: 18px;
+text-decoration: underline;
+}
+
+.img-texto{
+max-width: 100%;
+padding-left: 250px;
+position: relative;
+display: inline-block;
+}
+
+.imagen{
+opacity: .2;
+display: block;
+width: 100%;
+height: auto;
+}
+
+.texto_en_imagen{
+display: block;
+position: absolute;
+color: blanchedalmond;
+font-size: 20px;
+font-weight: bold;
+top: 50px;
+left: 2;
+text-indent: 5px;
+margin-left: 10px;
+}
+/* Body */
+/* Footer */
+.tabla3{
+    caption-side: top;
+    empty-cells: hide;
+    
+}
+h1{
+    caption-side: bottom;
+}
+hr{
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.img-footer1{
+padding-left: 1300px;
+padding-right: 20px;
+caption-side: bottom;
+}
+
+.img-footer2{
+padding-right: 20px;
+}
+/* Footer */

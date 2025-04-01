@@ -1,0 +1,124 @@
+/* Estilos Genericos */
+html{
+  font-family: system-ui;
+  font-size: 20px;
+}
+a{
+  text-decoration: none;
+}
+/* Estilos Genericos */
+
+/* Estilo de Header*/
+header{
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+  /* Estilo cuerpo */
+  body {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  }
+
+  td{
+    padding: 10px;
+  }
+
+  /* Estilo de Footer*/
+footer{
+  font-size: 14px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+/* Maquetado de la carta */
+.wrap-carta{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+/*Formato de carta*/
+.wrap-carta-productos{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  margin: 0 auto;
+  column-gap: 2rem;
+  row-gap: 2rem;
+  display: flex;
+  align-items: center;
+}
+.wrap-carta-productos-platos-img{
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  flex-basis: 25%;
+  max-width: 150px;
+  max-height: 100px;
+}
+.wrap-carta-productos-platos-titulos{
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 1rem;
+}
+.wrap-carta-productos-platos-precios{
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 150px;
+  font-size: 1,5rem;
+}
+/*Foramto de carta*/
+
+/*Formato pestaña Conocenos*/
+.wrap-conocer-tabla{
+  margin: 0 auto;
+}
+.wrap-conocer-tabla-titulos{
+  margin: 0 auto;
+}
+.wrap-conocer-tabla-titulos-chef{
+  padding-left: 50px; padding-right: 50px;
+  padding-bottom: 30px;
+}
+.wrap-conocer-tabla-titulos-menu{
+  padding-left: 50px; padding-right: 50px;
+  padding-bottom: 30px;
+}
+.wrap-conocer-tabla-titulos-restaurante{
+  padding-left: 50px; padding-right: 50px;
+  padding-bottom: 30px;
+}
+/*Formato pestaña Conócenos*/
+
+/* Oculta los los bot */
+  input[type="radio"] {
+    display: none;
+
+  }
+
+  /*Estilos para las etiquetas de los tabs */
+  label {
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    display: inline-block;
+  }
+
+  /* Aplica un estilo activo a la pestaña seleccionada */
+  input[type="radio"]:checked + label {
+    font-weight: bold;
+    padding-right: 50px; padding-left: 50px;
+  }
+
+  /* Sección oculta por defecto */
+  section {
+    margin: auto;
+    display: none;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+  }
+  /* Muestra la sección del tab seleccionado */
+  #tab2:checked ~ #content2,
+  #tab1:checked ~ #content1,
+  #tab3:checked ~ #content3 {
+    display: block;
+  }

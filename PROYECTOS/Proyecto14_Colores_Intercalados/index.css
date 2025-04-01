@@ -1,0 +1,17 @@
+table th {
+    background-color: green;
+    color: white;
+}
+table tr:nth-child(odd){
+    background-color: red;
+}
+table tr:nth-child(even){
+    background-color: black;
+    color: white;
+}
+.celda1{
+    background-color: white;
+}
+.celda2{
+    background-color: white;
+}
