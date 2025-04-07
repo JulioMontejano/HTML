@@ -1,6 +1,5 @@
 *{
     background-image: linear-gradient(360deg );
-    color: #2abfff;
 }
 
 .contenedor{
@@ -9,6 +8,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #2abfff;
 }
 
 .tarjeta{
@@ -70,7 +70,7 @@ ul{
 /*Css del boton*/
 button { /*Con esto cambiamos solo el diseño base del botón*/
     padding: 1em 3em; /*Esto da anchura al boton*/
-    font-family: Poppins, sans-serif; /*Cambia el tipo de letra*/
+    font-family: sans-serif; /*Cambia el tipo de letra*/
     font-weight: 600; /*Hacer que casi sea en negrita el el texto de dentro del botón*/
     border: none; /*Le quitamos el borde*/
     border-radius: 2px; /*Hacemos que tenga los bordes redondeados*/
@@ -100,4 +100,25 @@ button:hover::after { /*Con este pseudoelemento podemos crear transiciones despu
 
 button:hover {
     color: #2abfff;
+}
+
+/* CSS de los botones de navegación*/
+.cabecera{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+
+#About_us{
+    margin-left: 530px;
+    margin-right: 50px;
+}
+
+#Home{
+    margin-right: 50px;
+}
+
+#User{
+    margin-left: 390px;
 }
