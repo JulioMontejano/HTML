@@ -1,7 +1,4 @@
-*{
-    background-image: linear-gradient(360deg );
-}
-
+/*Css de la pagina principal*/
 .contenedor{
     height: 100vh;
     width: 100vw;
@@ -67,7 +64,7 @@ ul{
     padding: 0;
     margin: 0;
 }
-/*Css del boton*/
+/*Css del botones*/
 button { /*Con esto cambiamos solo el diseño base del botón*/
     padding: 1em 3em; /*Esto da anchura al boton*/
     font-family: sans-serif; /*Cambia el tipo de letra*/
@@ -103,15 +100,8 @@ button:hover {
 }
 
 /* CSS de los botones de navegación*/
-.cabecera{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 40px;
-}
-
 #About_us{
-    margin-left: 530px;
+    margin-left: 360px;
     margin-right: 50px;
 }
 
@@ -121,4 +111,114 @@ button:hover {
 
 #User{
     margin-left: 390px;
+}
+
+/*Css de la cabecera*/
+
+.cabecera{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.img{
+    width: 150px;
+    height: 150px;
+    padding-left: 0px;
+}
+
+
+/*Css de los productos*/
+
+.productos-table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+
+
+.ford{
+    max-width: 100px;
+    padding-left: 50px;
+    
+}
+
+.urus{
+    max-width: 100px;
+    padding-left: 50px;
+}
+
+/*Css Ford mustang*/
+.imgcoche-ford {
+    width: 300px;
+    padding-left: 100px;
+    border-radius: 200px;
+    transition: 0.5s;
+}
+
+.imgcoche-ford:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+/*Css Urus*/
+.imgcoche-urus {
+    width: 300px;
+    padding-left: 100px;
+    border-radius: 200px;
+    transition: 0.5s;
+}
+
+.imgcoche-urus:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+/*Css Footer*/
+
+a{
+    text-decoration: none;
+    list-style: none;
+}
+a:hover{
+    color: #0071FF;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+
+#youtube{
+    font-size: 30px;
+    padding-left: 20px;
+    transition: 0.5s;
+}
+
+#youtube:hover{
+    transform: scale(1.2);
+}
+
+#insta{
+    font-size: 30px;
+    padding-left: 20px;
+    transition: 0.5s;
+}
+
+#insta:hover{
+    transform: scale(1.2);
+}
+
+#tiktok{
+    font-size: 30px;
+    padding-left: 20px;
+    transition: 0.5s;
+}
+
+#tiktok:hover{
+    transform: scale(1.2);
 }
