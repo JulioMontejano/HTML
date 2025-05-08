@@ -1,0 +1,24 @@
+*{
+    background-color: #fcedd2;
+}
+
+nav ul{
+    width: 10%;
+    background-color: #f9c74f;
+    text-align: center;
+    list-style-type: none;
+    
+}
+
+ul li{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9c74f;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    text-decoration: none;
+}
+ul li:hover{
+    background-color: #f3722c;
+}
