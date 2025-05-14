@@ -1,0 +1,102 @@
+*{
+    background-image: linear-gradient(360deg );
+    color: #2abfff;
+}
+
+.contenedor{
+    height: 100vh; /* Cambia el alto de la pantalla */
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tarjeta{
+    height: 600px;
+    width: 400px;
+    background-color: white;
+    border-radius: 10%;
+    box-shadow: 16px 14px 20px #0000008c;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tarjeta::before{
+    content: "";
+    position: absolute;
+    height: 1000px;
+    width: 1000px;
+    background-image: conic-gradient(#2abfff, #ffee00 20deg, transparent 120deg);
+    animation: rotar 2s linear infinite;
+    z-index: -1;
+}
+
+@keyframes rotar{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(-360deg);
+    }
+}
+
+.tarjeta::after{
+    content: "";
+    position: absolute;
+    height: 590px;
+    width: 390px;
+    background-color: white;
+    border-radius: 10%;
+    box-shadow: inset 16px 14px 20px #0000008c;
+    z-index: -1;
+}
+
+form{
+    z-index: 10;
+    background-color: transparent;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+/*Css del boton*/
+button { /*Con esto cambiamos solo el diseño base del botón*/
+    padding: 1em 3em; /*Esto da anchura al boton*/
+    font-family: Poppins, sans-serif; /*Cambia el tipo de letra*/
+    font-weight: 600; /*Hacer que casi sea en negrita el el texto de dentro del botón*/
+    border: none; /*Le quitamos el borde*/
+    border-radius: 2px; /*Hacemos que tenga los bordes redondeados*/
+    color: #ffee00; /*Cambiamos el color de la letras*/
+    background: linear-gradient(to right, #2abfff, #0071FF); /*Hacemos que tenga un gradiente el entre esos 2 colores*/
+    position: relative; /*Hacemos que tenga la posicion relativa sobre la que luego el pseudoelemento se podra ajustar*/
+    z-index: 0; /*Con esto nos aseguramos que este en la capa principal a la cual haremos la transición*/
+    cursor: pointer; /*Cambia el tipo de puntero al poner el raton en el boton*/
+}
+
+button::after { /*Con este pseudoelemento podemos crear efectos*/
+    content: ''; /*Creamos el pseudoelemento*/
+    background: linear-gradient(to right, #ffee00, #ffb300); /*Cambiamos el color de background*/
+    height: 100%; /*Hacemos que ocupe toda la altura disponible*/
+    width: 0px; /*lo mantenemos invisible*/
+    border-radius: 2px; /*Hacemos que tenga los bordes redondeados*/
+    position: absolute;
+    left: 0; /*Ajustamos el boton abajo a la izquierda*/
+    top: 0;
+    z-index: -1; /*Con esto hacemos que el todos los cambios junto con la transicion pasen a estar por encima*/
+    transition: 150ms ease-in-out;
+}
+
+button:hover::after { /*Con este pseudoelemento podemos crear transiciones despues de pasar el raton por encima*/
+    width: 100%;
+}
+
+button:hover {
+    color: #2abfff;
+}
