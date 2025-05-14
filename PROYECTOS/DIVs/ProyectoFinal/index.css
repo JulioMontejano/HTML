@@ -1,12 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Press+Start+2P&display=swap');
+
+
 *{
     background-color: #fcedd2;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
-nav ul{
+html{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+
+}
+
+.logo{
+    width: 200px;
+    margin: 0 auto  ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*nav ul{
     width: 10%;
     background-color: #f9c74f;
     text-align: center;
     list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     
 }
 
@@ -18,8 +50,10 @@ ul li{
     transition: background-color 0.3s ease;
     cursor: pointer;
     text-decoration: none;
+    
+    
 }
 ul li:hover{
     background-color: #f3722c;
     
-}
+}*/
