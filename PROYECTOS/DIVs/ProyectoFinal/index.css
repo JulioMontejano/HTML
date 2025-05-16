@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Press+Start+2P&display=swap');
 
-
 *{
-    background-color: #fcedd2;
-    box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
@@ -15,20 +12,139 @@ html{
 
 }
 
-.logo{
-    width: 200px;
-    margin: 0 auto  ;
+body{ 
+    min-height: 100vh;
+    background-color: #fcedd2;
 }
 
+header{
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1.3rem;
+    background-color: #f9c74f; 
+}
 
+nav{
+    display: flex;
+    justify-content: ace-between;
+    align-items: center;
+}
 
+.nav{
+    background-color: #f9c74f;
+    text-align: center;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 1.15rem;
+    font-weight: 700;
+}
 
+/******************** Botones ***********************/
+button{
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    background-color: #f9c74f;
+    border: none;
+    cursor: pointer;
+    font-size: 1.15rem;
+    font-weight: 700;
+}
 
+button { /*Con esto cambiamos solo el diseño base del botón*/
+    padding: 1em 3em; /*Esto da anchura al boton*/
+    font-family: sans-serif; /*Cambia el tipo de letra*/
+    font-weight: 600; /*Hacer que casi sea en negrita el el texto de dentro del botón*/
+    border: none; /*Le quitamos el borde*/
+    border-radius: 2px; /*Hacemos que tenga los bordes redondeados*/
+    color: #f9c74f; /*Cambiamos el color de la letras*/
+    background: linear-gradient(to right, #04685c, #31524e); /*Hacemos que tenga un gradiente el entre esos 2 colores*/
+    position: relative; /*Hacemos que tenga la posicion relativa sobre la que luego el pseudoelemento se podra ajustar*/
+    z-index: 0; /*Con esto nos aseguramos que este en la capa principal a la cual haremos la transición*/
+    cursor: pointer; /*Cambia el tipo de puntero al poner el raton en el boton*/
+}
 
+button::after { /*Con este pseudoelemento podemos crear efectos*/
+    content: ''; /*Creamos el pseudoelemento*/
+    background: linear-gradient(to right, #1a1919, #000000); /*Cambiamos el color de background*/
+    height: 100%; /*Hacemos que ocupe toda la altura disponible*/
+    width: 0px; /*lo mantenemos invisible*/
+    border-radius: 2px; /*Hacemos que tenga los bordes redondeados*/
+    position: absolute;
+    left: 0; /*Ajustamos el boton abajo a la izquierda*/
+    top: 0;
+    z-index: -1; /*Con esto hacemos que el todos los cambios junto con la transicion pasen a estar por encima*/
+    transition: 150ms ease-in-out;
+}
 
+button:hover::after { /*Con este pseudoelemento podemos crear transiciones despues de pasar el raton por encima*/
+    width: 100%;
+}
 
+button:hover {
+    color: #f9c74f;
+}
 
+li{
+    margin: 0 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
 
+i{
+    scale: 1.5;
+}
+/******************** Botones ***********************/
+
+/******************** Logo ***********************/
+.container-logo{
+    max-width: 100%;
+}
+.logo{
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+}
+/******************** Logo ***********************/
+/******************** Carrusel ***********************/
+.img-carrusel{
+    width: 250px;
+}
+
+.carousel {
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  anchor-name: --carousel;
+
+  > li {
+    scroll-snap-align: center;
+  }
+}
+
+.carousel {
+  &::scroll-button(*) {
+    position: fixed;
+    position-anchor: --carousel;
+    font-family: "Material Symbols Outlined";
+  }
+
+  &::scroll-button(right) {
+    position-area: inline-end center;
+    content: 'arrow_forward' / 'Next';
+  }
+  
+  &::scroll-button(left) {
+    position-area: inline-start center;
+    content: 'arrow_back' / 'Previous';
+  }
+}
+/******************** Carrusel ***********************/
+/******************** Footer ***********************/
 
 
 /*nav ul{

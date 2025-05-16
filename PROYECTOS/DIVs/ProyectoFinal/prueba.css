@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  background: white;
+  z-index: 100;
+  height: 100px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  transition: all 0.3s ease;
+}
+
+#logo {
+  height: 80px;
+  transition: transform 0.3s ease, height 0.3s ease;
+}
